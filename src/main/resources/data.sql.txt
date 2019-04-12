@@ -1,0 +1,6 @@
+INSERT INTO Zone (id,name) VALUES ('1','ZoneA');
+INSERT INTO Zone (id, name) VALUES ('2', 'ZoneB');
+INSERT INTO Zone (id, name) VALUES ('3', 'ZoneC');
+
+INSERT INTO Status (id,name) VALUES ('1','Rent');
+INSERT INTO Status (id, name) VALUES ('2', 'Rent');

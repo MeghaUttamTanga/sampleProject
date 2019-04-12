@@ -1,0 +1,23 @@
+create schema if not EXISTS propertyTax;
+
+
+Drop table if EXISTS propertyTax.Zone;
+CREATE TABLE propertyTax.Zone (
+    id   VARCHAR(10)      NOT NULL AUTO_INCREMENT,
+    name VARCHAR(128) NOT NULL,
+    PRIMARY KEY (id)
+);
+
+Drop table if EXISTS propertyTax.Status;
+CREATE TABLE propertyTax.Status (
+    id   VARCHAR(10)      NOT NULL AUTO_INCREMENT,
+    name VARCHAR(128) NOT NULL,
+    PRIMARY KEY (id)
+);
+
+Drop table if EXISTS propertyTax.Categort;
+CREATE TABLE propertyTax.Category (
+    id   VARCHAR(10)      NOT NULL AUTO_INCREMENT,
+    name VARCHAR(128) NOT NULL,
+    PRIMARY KEY (id)
+);
